@@ -1,0 +1,70 @@
+.ser{
+  width: 200px;
+}
+.searchbox {
+    position: absolute;
+    margin: -10px 0;
+    width: 22px; 
+    height: 22px;
+    overflow: hidden;
+    transition: width 0.5s ease; 
+  }
+  
+  .searchbox.open {
+    width: 200px;
+  }
+  
+  .input {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding-right: 50px;
+    box-sizing: border-box;
+    height: 22px;
+    border: 0;
+    font-size: 30px;
+    background: transparent;
+    color: white;
+    outline: none;
+  }
+  
+  .submit{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 22px;
+    height: 22px;
+    outline: none;
+  }
+ 
+  
+  .submit {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .submit::before {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    left: 10%;
+    top: 10%;
+    box-sizing: border-box;
+    border: 3px solid #fff;
+    border-radius: 50%;
+  }
+  
+  .submit::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 14px;
+    background: #fff;
+    transform-origin: 50% 0%;
+    transform: rotate(-45deg);
+    top: 60%;
+    left: 60%;
+  }
+  

@@ -1,0 +1,150 @@
+header {
+    background: #0F0F0F;
+
+    .header_top {
+        display: flex;
+        justify-content: space-between;
+        padding: 14px 36px;
+        background: #000000;
+
+        div {
+            color: #969696;
+            display: flex;
+            align-items: center;
+
+            p {
+                padding: 0 10px;
+
+                
+                &:not(:last-child) {
+                    border-right: 2px solid #969696;
+                }
+            }
+
+            .icon {
+                margin-right: 10px;
+                width: 16px;
+                height: 16px;
+            }
+        }
+
+       
+    }
+ .login-link {
+            color: #969696;
+            text-decoration: none;
+            padding: 0 5px;
+            background: none;
+        }
+
+        .icon2 {
+            margin-right: 10px;
+            width: 18px;
+            height: 18px;
+        }
+    .header_bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 80px;
+        background: #0F0F0F;
+        font-family: PT Sans, sans-serif;
+
+        .nav {
+        
+            display: flex;
+            align-items: center;
+
+            .link {
+                text-decoration: none;
+                width: 150px;
+                height: 80px;
+                margin: 0 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+                white-space: nowrap;
+                transition: background-color 0.5s ease;
+
+                &:hover {
+                    background: #969696;
+                }
+            }
+
+          
+        }
+    }
+    .header-icons {
+      
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .iconCard {
+        color: #fff;
+        width: 22px;
+        height: 22px;
+        margin: 0 20px;
+    }
+}
+.headerMenu{
+    display: flex;
+    align-items: center;
+}
+.cart-icon-container   {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .cart-count   {
+    position: absolute;
+    top: -6px;
+    right:10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+
+
+@media (max-width: 1024px) {
+    .burger-menu {
+        display: flex !important;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .headerbtn {
+        display: none;
+    }
+
+    .header_top {
+        padding: 0 12px !important;
+
+        div {
+            align-items: flex-start !important;
+            flex-direction: column;
+        }
+    }
+
+    .auth-links {
+        color: #969696;
+        text-decoration: none;
+        padding: 0 5px;
+    }
+
+    .header {
+        display: none;
+    }
+}

@@ -1,0 +1,85 @@
+.Season {
+
+
+
+.Season_content {
+    display: flex; 
+    width: 100%; 
+}
+
+.Season_generalOne {
+    flex: 1; 
+    padding: 20px; 
+}
+
+.generalCard {
+    display: flex; 
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+
+    .Season_generalTwo {
+        background-image: url(../../shared/assets/newcol.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 760px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+       
+        button {
+            width: 138px;
+            height:47px;
+            padding: 12px 28px 12px 28px;
+            border: 1px ;
+            background: transparent;
+            color: #FFFFFF;
+            border: 1px solid #FFFFFF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px auto;
+            font-size: 18px;
+            font-weight: 400;
+            
+
+        }
+    }
+    .line {
+        margin: 30px auto;
+        width: 125px;
+        height: 3px;
+        background: #fff;
+    }
+}
+
+.general-card{
+    display: flex !important;
+    align-items: center ;
+}
+/* ---- */
+
+@media (max-width: 1680px) {
+    .Season{
+.generalCard ,
+        &>div{
+          flex-wrap: wrap;
+        }
+        .Season_generalTwo {
+           margin-top: 100px;
+            width: 100%;
+           
+    
+           
+           
+        }
+        
+    }
+    
+}
+

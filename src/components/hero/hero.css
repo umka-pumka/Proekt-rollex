@@ -1,0 +1,66 @@
+#hero {
+    background-image: url(../.././shared/assets/hero.png);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    margin: auto; 
+    font-family: 'PT Sans', sans-serif; 
+    padding: 160px 0; 
+
+    div {
+        .porten {
+            width: 320px; 
+            height: 320px; 
+            border: solid 1px #FFFFFF; 
+            margin: auto; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center;
+
+            div {
+                img {
+                    margin: auto; 
+                    width: 185px; 
+                }
+
+                .line {
+                    margin: 10px auto; 
+                    width: 100%; 
+                    height: 3px; 
+                    background: #fff; 
+                }
+
+                h5 {
+                    text-align: center; 
+                    font-size: 22px; 
+                    font-weight: 400; 
+                    color: #fff; 
+                }
+            }
+        }
+
+        p {
+            font-size: 16px; 
+            font-weight: 400; 
+            line-height: 24px; 
+            text-align: center; 
+            width: 630px; 
+            height: 96px; 
+            color: #FFFFFF; 
+            margin: 80px auto; 
+        }
+    }
+}
+/* 
+----------- */
+@media (max-width: 1024px) {
+   #hero{
+    div{
+    p{
+        width:90%;
+    }
+    }
+   }
+    
+}

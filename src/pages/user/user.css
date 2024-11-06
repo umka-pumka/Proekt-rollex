@@ -1,0 +1,115 @@
+
+.user {
+    max-width: 300px;
+    margin: 60px auto;
+    padding: 40px 30px;
+    background-color: #ffffff;
+    border: 1px solid #e6e9f0;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .user h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 25px;
+  }
+  
+  .user label {
+    display: block;
+    font-size: 14px;
+    color: #4a4a4a;
+    margin-bottom: 6px;
+  }
+  
+  .user input[type="email"],
+  .user input[type="text"],
+  .user input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #333;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+  }
+  
+  .user input[type="email"]:focus,
+  .user input[type="password"]:focus {
+    border-color: #3b82f6;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+    outline: none;
+  }
+  
+  .user button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #3b82f6;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+  }
+  
+  .user button[type="submit"]:hover {
+    background-color: #2563eb;
+    transform: scale(1.02);
+  }
+  
+  .user p {
+    text-align: center;
+    font-size: 14px;
+    color: #6b7280;
+    margin-top: 15px;
+  }
+  
+  .user p a {
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .user p a:hover {
+    color: #2563eb;
+  }
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}

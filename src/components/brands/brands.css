@@ -1,0 +1,26 @@
+.brands{
+    padding: 60px  0;
+    background: #0F0F0F;
+
+    .line {
+        margin: 40px auto;
+        width: 125px;
+        height: 3px;
+        background: #fff;
+    }
+    .brands_img{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+/* --------------------------- */
+@media (max-width: 1200px) {
+   .brands_img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   flex-wrap: wrap;
+   }
+    
+}
